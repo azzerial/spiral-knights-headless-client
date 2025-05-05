@@ -9,13 +9,13 @@
 
 <p align="center">
   <a href="https://maven.azzerial.net/#/releases/net/azzerial/spiral-knights-headless-client">
-    <img src="https://img.shields.io/maven-metadata/v?color=green&label=Release&metadataUrl=https%3A%2F%2Fmaven.azzerial.net%2Freleases%2Fnet%2Fazzerial%2Fspiral-knights-headless-client%2Fmaven-metadata.xml">
+    <img src="https://img.shields.io/maven-metadata/v?style=flat-square&color=blue&label=Release&metadataUrl=https%3A%2F%2Fmaven.azzerial.net%2Freleases%2Fnet%2Fazzerial%2Fspiral-knights-headless-client%2Fmaven-metadata.xml">
   </a>
-  <a href="https://maven.azzerial.net/#/snapshots/net/azzerial/spiral-knights-headless-client">
-    <img src="https://img.shields.io/maven-metadata/v?color=blue&label=Snapshot&metadataUrl=https%3A%2F%2Fmaven.azzerial.net%2Fsnapshots%2Fnet%2Fazzerial%2Fspiral-knights-headless-client%2Fmaven-metadata.xml">
-  </a>
+  <!-- a href="https://maven.azzerial.net/#/snapshots/net/azzerial/spiral-knights-headless-client">
+    <img src="https://img.shields.io/maven-metadata/v?style=flat-square&color=green&label=Snapshot&metadataUrl=https%3A%2F%2Fmaven.azzerial.net%2Fsnapshots%2Fnet%2Fazzerial%2Fspiral-knights-headless-client%2Fmaven-metadata.xml">
+</a -->
   <a href="https://github.com/azzerial/spiral-knights-headless-client/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/azzerial/spiral-knights-headless-client?color=lightgray&label=License&logo=apache">
+    <img src="https://img.shields.io/github/license/azzerial/spiral-knights-headless-client?style=flat-square&color=lightgray&label=License&logo=apache">
   </a>
 </p>
 
@@ -48,7 +48,7 @@ It would also be possible to turn this "read only" headless client into a bot al
 - `exchange market` - ability to buy or sell energy offers
 - `auction house` - ability to bid, cancel a bid, get your listings, get your bids, list an item
 
-Though I am not too keen on bringing those features to life as they could introduce automated bots to the game.
+Though I am not too keen on bringing those features to life as they would introduce botting to the game.
 
 ## How to Use
 
