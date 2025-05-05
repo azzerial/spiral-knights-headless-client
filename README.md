@@ -14,7 +14,7 @@
   <!-- a href="https://maven.azzerial.net/#/snapshots/net/azzerial/spiral-knights-headless-client">
     <img src="https://img.shields.io/maven-metadata/v?style=flat-square&color=green&label=Snapshot&metadataUrl=https%3A%2F%2Fmaven.azzerial.net%2Fsnapshots%2Fnet%2Fazzerial%2Fspiral-knights-headless-client%2Fmaven-metadata.xml">
 </a -->
-  <a href="https://github.com/azzerial/spiral-knights-headless-client/blob/master/LICENSE">
+  <a href="https://github.com/azzerial/spiral-knights-headless-client/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/azzerial/spiral-knights-headless-client?style=flat-square&color=lightgray&label=License&logo=apache">
   </a>
 </p>
