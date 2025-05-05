@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+  <head>
+    <!-- $Id: package.html 617 2001-11-13 00:12:20Z mdb $ -->
+  </head>
+
+  <body bgcolor="white">
+
+    A framework for sharing data between network-connected applications and a
+    remote procedure call mechanism.
+
+    The normal configuration of the Presents system is client/server; generally
+    with many clients connecting to a single server though a system exists to
+    allow a network of peer servers to communicate with one another . All
+    information transfer takes place through the server using the distributed
+    object system documented below.
+
+    <p> For libraries that are build on the distributed object services as well
+    as most code in a system using the distributed object services, everything
+    you need are in these packages: </p>
+
+    <ul>
+    <li><a href="annotation/package-summary.html">annotation</a> - annotations
+        used for dependency resolution, distributed object defintion and
+        documentation purposes.
+    <li><a href="dobj/package-summary.html">dobj</a> - the core of the
+        distributed object system.
+    <li><a href="tools/package-summary.html">tools</a> - ant tasks for
+        generating ditsributed object setter methods, invocation service and
+        invocation receiver marshallers.
+    <li><a href="util/package-summary.html">util</a> - various utilities that
+        simplify life for users of the distributed object services.
+    </ul>
+
+    <p> Systems making use of the distributed object services will need to set
+    up a client and server. The following packages contain those services and
+    their implementation: </p>
+
+    <ul>
+    <li><a href="client/package-summary.html">client</a> - the client side of
+        the distributed object client/server framework.
+    <li><a href="data/package-summary.html">data</a> - classes that are sent
+        over the network (and hence shared by the client and server); constant
+        definition interfaces.
+    <li><a href="net/package-summary.html">net</a> - classes used to define and
+        implement the Presents protocol.
+    <li><a href="server/package-summary.html">server</a> - the server side of
+        the distributed object client/server framework.
+    </ul>
+
+    <p> Systems that need to scale beyond a single server will need to make use
+    of services in the peer package which provides a mechanism by which
+    multiple servers can operate in concert. </p>
+
+  </body>
+</html>
