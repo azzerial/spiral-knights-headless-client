@@ -21,8 +21,7 @@ public final class Main {
 
     /* Constructors */
 
-    private Main() {
-    }
+    private Main() {}
 
     /* Methods */
 
